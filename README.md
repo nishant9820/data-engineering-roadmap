@@ -1,100 +1,299 @@
-# 🚀 Data Engineering Bootcamp
+# 🚀 Data Engineering Roadmap
 
-## Goal
-
-Become an Interview Ready Data Engineer in 12 Weeks.
+> A structured 12-week roadmap to become an Interview-Ready Data Engineer.
 
 ---
 
-# Roadmap
+# 🎯 Goal
 
-## Month 1 — SQL & Data Engineering Foundations
-
-- [ ] Week 1 — Advanced SQL
-- [ ] Week 2 — ETL SQL
-- [ ] Week 3 — Data Warehousing
-- [ ] Week 4 — Slowly Changing Dimensions
-
----
-
-## Month 2 — Python & Big Data
-
-- [ ] Week 5 — Python
-- [ ] Week 6 — Pandas
-- [ ] Week 7 — PySpark
-- [ ] Week 8 — Apache Airflow
+- Master SQL for Data Engineering
+- Learn ETL & Data Warehousing
+- Build End-to-End Data Pipelines
+- Learn Python, Spark, Airflow & AWS
+- Complete Real Projects
+- Prepare for Data Engineering Interviews
 
 ---
 
-## Month 3 — Cloud & Projects
+# 📅 Weekly Roadmap
 
-- [ ] Week 9 — AWS
-- [ ] Week 10 — Data Lake & Analytics
-- [ ] Week 11 — Capstone Project
-- [ ] Week 12 — Interview Preparation
+## ✅ Week 01 - Advanced SQL
 
----
+**Topics**
 
-# Progress
+- [ ] Window Functions
+- [ ] ROW_NUMBER()
+- [ ] RANK()
+- [ ] DENSE_RANK()
+- [ ] LEAD()
+- [ ] LAG()
+- [ ] CTE
+- [ ] CASE
+- [ ] EXISTS vs IN vs JOIN
 
-| Week | Topic          | Status |
-| ---- | -------------- | ------ |
-| 1    | Advanced SQL   | ⬜     |
-| 2    | ETL SQL        | ⬜     |
-| 3    | Data Warehouse | ⬜     |
-| 4    | SCD            | ⬜     |
-| 5    | Python         | ⬜     |
-| 6    | Pandas         | ⬜     |
-| 7    | PySpark        | ⬜     |
-| 8    | Airflow        | ⬜     |
-| 9    | AWS            | ⬜     |
-| 10   | Data Lake      | ⬜     |
-| 11   | Capstone       | ⬜     |
-| 12   | Interview Prep | ⬜     |
+**Practice**
 
----
+- [ ] 50 SQL Questions
+- [ ] Employee ETL
+- [ ] Customer Revenue
+- [ ] Ranking Problems
 
-# Repository Structure
+**Project**
 
-- 📚 Notes
-- 💻 Practice Questions
-- 🛠 Projects
-- 🎯 Interview Questions
-- 📂 Datasets
-- 📖 Cheat Sheets
+- [ ] Employee ETL Pipeline
+
+Status : ⬜
 
 ---
 
-# Weekly Workflow
+## Week 02 - ETL SQL
 
-- 📖 Learn Theory
-- 💻 Practice
-- 🛠 Build Mini Project
-- 🎯 Solve Interview Questions
-- ✅ Push to GitHub
+**Topics**
+
+- [ ] ETL
+- [ ] ELT
+- [ ] Staging Tables
+- [ ] Incremental Loading
+- [ ] MERGE
+- [ ] UPSERT
+- [ ] Idempotency
+
+**Practice**
+
+- [ ] Employee ETL
+- [ ] Customer ETL
+- [ ] Product ETL
+
+**Project**
+
+- [ ] Incremental Loading Pipeline
+
+Status : ⬜
 
 ---
 
-# Final Projects
+## Week 03 - Data Warehousing
 
-- Employee ETL Pipeline
-- Customer SCD Type 2
-- Sales Data Warehouse
-- Airflow ETL Pipeline
-- Spark Data Processing
-- AWS Data Lake
-- End-to-End Data Engineering Project
+**Topics**
+
+- [ ] OLTP vs OLAP
+- [ ] Star Schema
+- [ ] Snowflake Schema
+- [ ] Fact Tables
+- [ ] Dimension Tables
+- [ ] Surrogate Keys
+
+**Project**
+
+- [ ] Ecommerce Warehouse
+
+Status : ⬜
 
 ---
 
-## Tech Stack
+## Week 04 - Slowly Changing Dimensions
+
+**Topics**
+
+- [ ] SCD Type 1
+- [ ] SCD Type 2
+- [ ] SCD Type 3
+- [ ] CDC
+
+**Project**
+
+- [ ] Customer History Pipeline
+
+Status : ⬜
+
+---
+
+## Week 05 - Python
+
+- [ ] Python Basics
+- [ ] Functions
+- [ ] OOP
+- [ ] File Handling
+- [ ] Exception Handling
+
+Project
+
+- [ ] CSV Cleaner
+
+Status : ⬜
+
+---
+
+## Week 06 - Pandas
+
+- [ ] DataFrames
+- [ ] Merge
+- [ ] GroupBy
+- [ ] Missing Values
+- [ ] DateTime
+
+Project
+
+- [ ] Sales Analytics
+
+Status : ⬜
+
+---
+
+## Week 07 - PySpark
+
+- [ ] Spark Architecture
+- [ ] DataFrames
+- [ ] Transformations
+- [ ] Window Functions
+- [ ] Joins
+
+Project
+
+- [ ] Large Scale ETL
+
+Status : ⬜
+
+---
+
+## Week 08 - Apache Airflow
+
+- [ ] DAGs
+- [ ] Scheduling
+- [ ] Sensors
+- [ ] Operators
+- [ ] Retries
+
+Project
+
+- [ ] Daily ETL Pipeline
+
+Status : ⬜
+
+---
+
+## Week 09 - AWS
+
+- [ ] IAM
+- [ ] EC2
+- [ ] S3
+- [ ] RDS
+- [ ] Lambda
+
+Project
+
+- [ ] AWS ETL
+
+Status : ⬜
+
+---
+
+## Week 10 - Data Lake & Analytics
+
+- [ ] Glue
+- [ ] Athena
+- [ ] Redshift
+- [ ] Lake Formation
+
+Project
+
+- [ ] Data Lake
+
+Status : ⬜
+
+---
+
+## Week 11 - Capstone Project
+
+Build an End-to-End Data Engineering Pipeline
+
+```
+CSV
+    │
+    ▼
+S3
+    │
+    ▼
+Airflow
+    │
+    ▼
+Spark
+    │
+    ▼
+Transform
+    │
+    ▼
+Redshift
+    │
+    ▼
+Power BI
+```
+
+Status : ⬜
+
+---
+
+## Week 12 - Interview Preparation
+
+- [ ] SQL
+- [ ] Python
+- [ ] Spark
+- [ ] Airflow
+- [ ] AWS
+- [ ] Mock Interviews
+- [ ] Resume Review
+
+Status : ⬜
+
+---
+
+# 📈 Progress
+
+| Week | Topic | Status |
+|------|--------------------------|--------|
+|01|Advanced SQL|⬜|
+|02|ETL SQL|⬜|
+|03|Data Warehouse|⬜|
+|04|SCD|⬜|
+|05|Python|⬜|
+|06|Pandas|⬜|
+|07|PySpark|⬜|
+|08|Airflow|⬜|
+|09|AWS|⬜|
+|10|Data Lake & Analytics|⬜|
+|11|Capstone Project|⬜|
+|12|Interview Preparation|⬜|
+
+---
+
+# 🛠 Tech Stack
 
 - SQL
 - Python
 - Pandas
 - PySpark
-- Airflow
-- Docker
+- Apache Airflow
 - AWS
+- Docker
 - Git
 - Linux
+- Data Warehousing
+
+---
+
+# 📌 Repository Structure
+
+```
+Week-01-Advanced-SQL/
+Week-02-ETL-SQL/
+Week-03-Data-Warehouse/
+Week-04-SCD/
+Week-05-Python/
+Week-06-Pandas/
+Week-07-PySpark/
+Week-08-Airflow/
+Week-09-AWS/
+Week-10-Data-Lake-Analytics/
+Week-11-Capstone-Project/
+Week-12-Interview-Preparation/
+```
